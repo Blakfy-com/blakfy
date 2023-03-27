@@ -43,13 +43,38 @@
 .navbarRight {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: center;
     margin-right: 20%;
-}
-.navbarRight div a {
-    text-decoration: none;
-    color: black;
     font-size: 18px;
-    margin-left: 50px;
+}
+
+.In {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+.Up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 10rem;
+    height: 75%;
+}
+
+.Up:hover {
+    opacity: 60%;
+    transition: 0.5s;
+}
+
+.navbarRight div a {
+    color: black;
+    text-decoration: none;
 }
