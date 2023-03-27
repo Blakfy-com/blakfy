@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
     background: linear-gradient(
         90deg,
         rgb(246, 246, 246) 0%,
@@ -9,93 +9,47 @@
     );
 }
 
-/* 
-    NAVBAR LEFT
-*/
-
+/*          NAVBAR LOGO         */
 .navbarLeft {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 5rem;
+    margin-left: 10%;
 }
 
-.navbarLeft .navbarLogo {
+/*          NAVBAR MAIN        */
+
+.navbarMain {
+    flex-direction: column;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .navMain {
     display: flex;
-    justify-content: center;
-    white-space: nowrap;
-    align-items: center;
+    justify-content: space-between;
 }
-.navMain .navItem {
-    padding-left: 30%;
+
+.navItem {
+    margin: 0 30px;
 }
-.navMain .navItem a {
+
+.navItem a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
     font-size: 18px;
+    color: black;
 }
 
-/* 
-
-    NAVBAR MAIN
-
-*/
-
-/*
-    NAVBAR RIGHT
-*/
+/*              NAVBAR RIGHT             */
 
 .navbarRight {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    font-size: 18px;
-}
+    justify-content: space-between;
 
-.navbarRight .In {
-    font-size: 18px;
+    margin-right: 20%;
 }
-
-.navbarRight .In a {
+.navbarRight div a {
     text-decoration: none;
-    font-weight: bold;
     color: black;
-}
-
-.navbarRight .In a:hover {
-    opacity: 60%;
-    transition: 0.3s;
-}
-
-.navbarRight .Up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     font-size: 18px;
-    background-color: #5988ff;
-    margin-left: 15px;
-
-    border-radius: 10px;
-    width: 15%;
-    height: 40px;
-}
-
-.navbarRight .Up a {
-    text-decoration: none;
-    color: white;
-}
-
-.navbarRight .Up:hover {
-    background-color: #007aff;
-    transition: 0.3s;
+    margin-left: 50px;
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.css';
-import { TfiLayoutLineSolid } from 'react-icons/tfi';
 
 // test
 function Navbar() {
