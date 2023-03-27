@@ -1,7 +1,6 @@
 .navbar {
     display: flex;
-    justify-content: space-around;
-    padding: 1%;
+    justify-content: center;
     background: linear-gradient(
         90deg,
         rgb(246, 246, 246) 0%,
@@ -9,72 +8,59 @@
     );
 }
 
-/*          NAVBAR LOGO         */
+/** NAVBAR LEFT */
 .navbarLeft {
-    margin-left: 10%;
-}
-
-/*          NAVBAR MAIN        */
-
-.navbarMain {
-    flex-direction: column;
     display: flex;
     align-items: center;
+}
+.navbarLogo {
+    display: flex;
     justify-content: center;
 }
 
-.navMain {
+.navbarLeft div img {
+    width: 50%;
+}
+
+/** NAVBAR MAIN */
+.navbarMain {
+    padding: 25px;
+    margin-top: 1%;
+    margin-right: 10%;
+}
+
+.mainItems {
     display: flex;
-    justify-content: space-between;
+    flex-direction: center;
+    justify-content: center;
 }
 
 .navItem {
-    margin: 0 30px;
+    margin-left: 50px;
 }
 
 .navItem a {
-    text-decoration: none;
     font-size: 18px;
     color: black;
+    text-decoration: none;
 }
 
-/*              NAVBAR RIGHT             */
+/** NAVBAR RIGHT */
 
 .navbarRight {
     display: flex;
-    align-items: center;
+    flex-direction: center;
     justify-content: center;
-    margin-right: 20%;
+    padding: 25px;
+    margin: 1%;
+}
+
+.navbarRight a {
     font-size: 18px;
-}
-
-.In {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-right: 10px;
-    border-radius: 10px;
-    height: 100%;
-}
-.Up {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blue;
-
-    margin-left: 10px;
-    border-radius: 10px;
-    width: 10rem;
-    height: 75%;
-}
-
-.Up:hover {
-    opacity: 60%;
-    transition: 0.5s;
-}
-
-.navbarRight div a {
     color: black;
     text-decoration: none;
+}
+
+.Up {
+    margin-left: 25px;
 }

@@ -7,19 +7,18 @@ function Navbar() {
         <div className="navbar">
             <div className="navbarLeft">
                 <div className="navbarLogo">
-                    <img src="/images/3.png" width="60%" alt="logo" />
+                    <img src="/images/3.png" alt="logo" />
                 </div>
             </div>
 
             <div className="navbarMain">
-                <div className="navMain ">
+                <div className="mainItems">
                     <div className="navItem">
                         <a href="#">E-Ticaret</a>
                     </div>
                     <div className="navItem">
                         <a href="#">Fiyatlar</a>
                     </div>
-
                     <div className="navItem">
                         <a href="#">Referanslar</a>
                     </div>
