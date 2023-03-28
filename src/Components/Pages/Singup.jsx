@@ -4,7 +4,7 @@ function Singup() {
     return (
         <div>
             <h1>Singup</h1>
-            <h2>Singup Burasi About sayfasi</h2>
+            <h2>Singup Burasi Singup sayfasi</h2>
         </div>
     );
 }
