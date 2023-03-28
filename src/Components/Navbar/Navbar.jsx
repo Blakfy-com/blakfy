@@ -4,36 +4,41 @@ import './Navbar.css';
 // test
 function Navbar() {
     return (
-        <div className="navbar">
-            <div className="navbarLeft">
-                <div className="navbarLogo">
-                    <img src="/images/3.png" alt="logo" />
+        <nav class="navbar">
+            <div class="navbar-left">
+                <div class="navbar-logo">
+                    <img src="/images/3.png" alt="Logo" />
                 </div>
             </div>
 
-            <div className="navbarMain">
-                <div className="mainItems">
-                    <div className="navItem">
-                        <a href="#">E-Ticaret</a>
-                    </div>
-                    <div className="navItem">
-                        <a href="#">Fiyatlar</a>
-                    </div>
-                    <div className="navItem">
-                        <a href="#">Referanslar</a>
-                    </div>
-                </div>
+            <div class="navbar-center">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
 
-            <div className="navbarRight">
-                <div className="In">
-                    <a href="#">Sign In</a>
-                </div>
-                <div className="Up">
-                    <a href="#">Sign Up</a>
+            <div class="navbar-right">
+                <div class="navbar-auth">
+                    <a className="Sign-In" href="#">
+                        Sign In
+                    </a>
+                    <a className="Sign-Up" href="#">
+                        Sign Up
+                    </a>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 }
 
