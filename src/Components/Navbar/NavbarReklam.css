@@ -1,0 +1,40 @@
+.NavTop {
+    height: 75px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavTop a {
+    all: unset;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    background-image: linear-gradient(
+        74.21deg,
+        rgb(255, 255, 255) -43.17%,
+        rgb(153, 156, 180) 1.33%,
+        rgb(237, 255, 172) 76.53%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% !important;
+    transition: all 0.4s ease 0s;
+    animation: 5s ease 0s infinite normal none running Gradient !important;
+}
+
+.NavTop a:hover {
+    background-image: linear-gradient(
+        74.21deg,
+        rgb(255, 255, 255) -43.17%,
+        rgb(129, 135, 179) 1.33%,
+        rgb(187, 172, 255) 76.53%
+    );
+    font-size: 22px;
+}
