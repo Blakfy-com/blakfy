@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import { NavLink } from 'react-router-dom';
 
 // test
 function Navbar() {
@@ -14,16 +15,18 @@ function Navbar() {
             <div class="navbar-center">
                 <ul class="navbar-nav">
                     <li class="navbar-item">
-                        <a href="#">Home</a>
+                        <NavLink to={{ pathname: '/' }}>Home</NavLink>
                     </li>
                     <li class="navbar-item">
-                        <a href="#">About</a>
+                        <NavLink to={{ pathname: '/About' }}>About</NavLink>
                     </li>
                     <li class="navbar-item">
-                        <a href="#">Services</a>
+                        <NavLink to={{ pathname: '/Contact' }}>Contact</NavLink>
                     </li>
                     <li class="navbar-item">
-                        <a href="#">Contact</a>
+                        <NavLink to={{ pathname: '/Services' }}>
+                            Services
+                        </NavLink>
                     </li>
                 </ul>
             </div>
@@ -33,7 +36,7 @@ function Navbar() {
                     <a className="Sign-In" href="#">
                         Sign In
                     </a>
-                    <a className="Sign-Up" href="#">
+                    <a className="Sign-Up" href="Singup">
                         Sign Up
                     </a>
                 </div>
