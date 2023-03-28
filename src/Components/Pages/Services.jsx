@@ -5,8 +5,7 @@ function Services() {
     return (
         <div>
             <Navbar />
-            Burasi Home sayfasi
-
+            <h1>Burasi Home sayfasi</h1>
         </div>
     );
 }

@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div>
             <Navbar />
-            Burasi Contact sayfasi
+            <h1>Burasi Contact sayfasi</h1>
         </div>
     );
 }

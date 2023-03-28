@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <Navbar />
-            Burasi About sayfasi
+            <h1>Burasi About sayfasi</h1>
         </div>
     );
 }
