@@ -11,19 +11,19 @@ function Footer() {
             <div className="footer-bottom">
                 <ul>
                     <li>
-                        <a href="#">FAQ</a>
+                        <a href="/home">FAQ</a>
                     </li>
                     <li>
-                        <a href="#">Privacy Policy</a>{' '}
+                        <a href="/home">Privacy Policy</a>{' '}
                     </li>
                     <li>
-                        <a href="#">Terms Of Service</a>
+                        <a href="/home">Terms Of Service</a>
                     </li>
                     <li>
-                        <a href="#">Cookies Policy</a>
+                        <a href="/home">Cookies Policy</a>
                     </li>
                     <li>
-                        <a href="#">Contacts</a>
+                        <a href="/contact">Contacts</a>
                     </li>
                 </ul>
             </div>
