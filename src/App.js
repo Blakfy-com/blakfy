@@ -5,7 +5,7 @@ import About from './Components/Pages/About';
 import Contact from './Components/Pages/Contact';
 import Services from './Components/Pages/Services';
 import Singup from './Components/Pages/Singup';
-
+import SingIn from './Components/Pages/SingIn';
 function App() {
     return (
         <BrowserRouter>
@@ -15,6 +15,7 @@ function App() {
                 <Route exact path="/Contact" element={<Contact />} />
                 <Route exact path="/Services" element={<Services />} />
                 <Route exact path="/Singup" element={<Singup />} />
+                <Route exact path="/SingIn" element={<SingIn />} />
             </Routes>
         </BrowserRouter>
     );
