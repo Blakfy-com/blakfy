@@ -1,11 +1,11 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Components/Pages/Home';
-import About from './Components/Pages/About';
-import Contact from './Components/Pages/Contact';
-import Services from './Components/Pages/Services';
-import Signup from './Components/Pages/Signup';
-import SignIn from './Components/Pages/SignIn';
+import Home from './Components/Pages/Home/Home';
+import About from './Components/Pages/About/About';
+import Contact from './Components/Pages/Contact/Contact';
+import Services from './Components/Pages/Services/Services';
+import Signup from './Components/Pages/Sign/Signup';
+import SignIn from './Components/Pages/Sign/SignIn';
 function App() {
     return (
         <BrowserRouter>
