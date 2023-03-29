@@ -3,8 +3,8 @@ import React from 'react';
 function SignIn() {
     return (
         <div>
-            <h1>Singin</h1>
-            <h2>Burasi SingIn sayfasi</h2>
+            <h1>Signin</h1>
+            <h2>Burasi SignIn sayfasi</h2>
         </div>
     );
 }
