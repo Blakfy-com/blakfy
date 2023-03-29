@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Singin() {
+function Signin() {
     return (
         <div>
             <h1>Singin</h1>
@@ -9,4 +9,4 @@ function Singin() {
     );
 }
 
-export default Singin;
+export default Signin;

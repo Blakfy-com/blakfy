@@ -33,7 +33,7 @@ function Navbar() {
 
             <div class="navbar-right">
                 <div class="navbar-auth">
-                    <a className="Sign-In" href="#">
+                    <a className="Sign-In" href="SignIn">
                         Sign In
                     </a>
                     <a className="Sign-Up" href="Singup">

@@ -4,8 +4,8 @@ import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
 import Contact from './Components/Pages/Contact';
 import Services from './Components/Pages/Services';
-import Singup from './Components/Pages/Singup';
-import SingIn from './Components/Pages/SingIn';
+import Signup from './Components/Pages/Signup';
+import SignIn from './Components/Pages/SignIn';
 function App() {
     return (
         <BrowserRouter>
@@ -14,8 +14,8 @@ function App() {
                 <Route exact path="/About" element={<About />} />
                 <Route exact path="/Contact" element={<Contact />} />
                 <Route exact path="/Services" element={<Services />} />
-                <Route exact path="/Singup" element={<Singup />} />
-                <Route exact path="/SingIn" element={<SingIn />} />
+                <Route exact path="/Singup" element={<Signup />} />
+                <Route exact path="/SingIn" element={<SignIn />} />
             </Routes>
         </BrowserRouter>
     );
