@@ -1,9 +1,20 @@
 import React from 'react';
+import { useState } from 'react';
 import './Slider.css';
 
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 
 function Slider() {
+    const [images, setImages] = useState('');
+
+    function img(setImages) {
+        setImages = ['1', '2', '3'];
+
+        for (let index = 0; index < setImages.length; index++) {
+            const element = setImages[index];
+        }
+    }
+
     return (
         <div>
             <div className="sliderShow">
