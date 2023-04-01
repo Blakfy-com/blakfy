@@ -5,29 +5,37 @@ import './Slider.css';
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 
 function Slider() {
-    const [images, setImages] = useState('');
+    const [count, setCount] = useState(0);
+    const images = [
+        `/images/1-nolu-slider.webp`,
+        `/images/2-nolu-slider.webp`,
+        `/images/3-nolu-slider.webp`
+    ];
 
-    function img(setImages) {
-        setImages = ['1', '2', '3'];
-
-        for (let index = 0; index < setImages.length; index++) {
-            const element = setImages[index];
+    const handleIncrement = () => {
+        if (count < images.length - 1) {
+            setCount(count + 1);
         }
-    }
+    };
+
+    const handleDecrement = () => {
+        if (count > 0) {
+            setCount(count - 1);
+        }
+    };
+
+    console.log(images.length);
 
     return (
         <div>
             <div className="sliderShow">
                 <div className="mySlides">
                     <div className="sliderImage">
-                        <img
-                            src="/images/1-nolu-slider.webp"
-                            alt="sliderImage1"
-                        />
-                        <div className="prev">
+                        <img src={images[count]} alt="sliderImages" />
+                        <div className="prev" onClick={handleDecrement}>
                             <FiArrowLeft />
                         </div>
-                        <div className="next">
+                        <div className="next" onClick={handleIncrement}>
                             <FiArrowRight />
                         </div>
                     </div>
