@@ -1,3 +1,67 @@
 .sliderShow {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+}
+
+.active {
+    display: none;
+}
+
+/* Orta Slider */
+
+.mySlides {
+}
+
+/* Alt slider   */
+
+.numberText {
+    position: absolute;
+    left: 0px;
+    color: blue;
+    font-size: 50px;
+}
+
+.sliderImage {
+    width: 100%;
+    height: 100%;
+}
+
+.sliderImage img {
+    width: 100%;
+    height: 100%;
+}
+
+/* slider prev and next */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -40px;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
     display: flex;
+    flex-direction: column-reverse;
+}
+
+.next {
+    right: 0;
+    border-radius: 25px 0 0 25px;
+}
+
+.prev {
+    border-radius: 0 25px 25px 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(13, 47, 240, 0.336);
 }
