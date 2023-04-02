@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.companies {
+    display: flex;
+    height: 150px;
+    width: 100%;
+
+    background-color: rgb(161, 150, 150);
+}
+
+.company {
+    background-color: brown;
+}

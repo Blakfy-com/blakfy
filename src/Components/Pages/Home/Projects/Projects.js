@@ -1,32 +1,33 @@
 import React from 'react';
+import './Projects.css';
 
 function Projects() {
     return (
         <section>
             <div>
-                <div>
-                    <div>
-                        <li>
+                <div className="companies">
+                    <div className="company">
+                        <li className="companyImage">
                             <img src="" />
                         </li>
                     </div>
-                    <div>
-                        <li>
+                    <div className="company">
+                        <li className="companyImage">
                             <img src="" />
                         </li>
                     </div>
-                    <div>
-                        <li>
+                    <div className="company">
+                        <li className="companyImage">
                             <img src="" />
                         </li>
                     </div>
-                    <div>
-                        <li>
+                    <div className="company">
+                        <li className="companyImage">
                             <img src="" />
                         </li>
                     </div>
-                    <div>
-                        <li>
+                    <div className="company">
+                        <li className="companyImage">
                             <img src="" />
                         </li>
                     </div>
