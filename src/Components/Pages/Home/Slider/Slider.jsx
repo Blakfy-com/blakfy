@@ -53,10 +53,10 @@ function Slider() {
                 <div className="sliderImage">
                         <motion.div
                             initial={{ scale: 10 }}
-                            animate={{ rotate: 180, scale: 1 }}
+                            animate={{ rotate: 360, scale: 1 }}
                             transition={{
                                 type: "spring",
-                                stiffness: 260,
+                                stiffness: 360,
                                 damping: 20
                             }}
                         >
