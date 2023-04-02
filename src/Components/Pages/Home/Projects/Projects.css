@@ -1,16 +1,21 @@
-* {
+.sectcion {
     margin: 0;
     padding: 0;
 }
 
 .companies {
     display: flex;
-    height: 150px;
-    width: 100%;
+    justify-content: space-around;
 
-    background-color: rgb(161, 150, 150);
+    background-color: #f2f2f2;
+    margin: 10px;
 }
 
 .company {
-    background-color: brown;
+    list-style: none;
+}
+
+.companyImage img {
+    width: 200px;
+    height: 100px;
 }
