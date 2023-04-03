@@ -3,27 +3,29 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <footer className="footer">
-            <div className="footer-img">
-                <img src="/images/3.png" alt="Logo" />
+        <footer class="footer">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="/images/3.png" alt="Logo" />
+                </div>
             </div>
 
-            <div className="footer-bottom">
-                <ul>
-                    <li>
-                        <a href="/home">FAQ</a>
+            <div class="footer-center">
+                <ul class="footer-nav">
+                    <li class="footer-item">
+                        <a>FAQ</a>
                     </li>
-                    <li>
-                        <a href="/home">Privacy Policy</a>{' '}
+                    <li class="footer-item">
+                        <a>Privacy Policy</a>
                     </li>
-                    <li>
-                        <a href="/home">Terms Of Service</a>
+                    <li class="footer-item">
+                        <a>Terms Of Service</a>
                     </li>
-                    <li>
-                        <a href="/home">Cookies Policy</a>
+                    <li class="footer-item">
+                        <a>Cookies Policy</a>
                     </li>
-                    <li>
-                        <a href="/contact">Contacts</a>
+                    <li class="footer-item">
+                        <a>Contacts</a>
                     </li>
                 </ul>
             </div>
