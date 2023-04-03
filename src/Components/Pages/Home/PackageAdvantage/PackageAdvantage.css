@@ -1,0 +1,58 @@
+.container {
+    text-align: center;
+    background-color: #e7eaef;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+}
+
+/** ROW 1 **/
+
+.modulTittle h1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.modulTittle p {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+/** ROW 2 **/
+
+.rowTwo {
+    margin: 0 70px 0 70px;
+}
+
+.modul {
+    background-color: #fff;
+    margin: 0 10px 0 20px;
+}
+
+.anasayfaItem {
+    margin: 40px;
+}
+
+.logo {
+    font-size: 60px;
+    color: #4285f4;
+}
+
+.title {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.comment {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 100;
+}
