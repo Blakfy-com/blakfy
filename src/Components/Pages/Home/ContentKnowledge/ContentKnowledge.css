@@ -5,11 +5,14 @@
     align-items: center;
     padding: 100px;
     /* background: linear-gradient(180deg, #fa4b68 0%, #f5536e 100%); */
-    background-image: linear-gradient(to left, #7d2368, #47143B, #251019, #000000, #000000);
+    /* Created with https://www.css-gradient.com */
+    background: conic-gradient(from 315deg, #7D2368, #000000);
   
     background-blend-mode: screen;
     color: white;
 }
+/* Created with https://www.css-gradient.com */
+
 
 .content-container {
 }
