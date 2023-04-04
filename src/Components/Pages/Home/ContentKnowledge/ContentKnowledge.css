@@ -1,0 +1,44 @@
+/* MAIN  */
+.content-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    /* background: linear-gradient(180deg, #fa4b68 0%, #f5536e 100%); */
+    background: linear-gradient(rgb(44, 44, 43), rgb(3, 159, 231), transparent),
+        linear-gradient(to top left, rgb(0, 0, 0), rgb(0, 0, 0), transparent),
+        linear-gradient(to top right, rgb(0, 0, 12), transparent);
+    background-blend-mode: screen;
+    color: white;
+}
+
+.content-container {
+}
+
+/** container 1  */
+
+.content-container h2 {
+    font-size: 50px;
+    justify-content: center;
+    margin: 2em;
+}
+/** container 2 */
+
+.content-list-items {
+    list-style: none;
+}
+
+.item-text-container {
+    margin-bottom: 50px;
+}
+
+.item {
+    margin-bottom: 50px;
+}
+.item h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.item p {
+    font-size: 20px;
+}
