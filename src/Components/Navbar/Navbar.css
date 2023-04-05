@@ -14,6 +14,20 @@
     align-items: center;
 }
 
+.navbar-logo .logo {
+    border-radius: 5px;
+    background: linear-gradient(
+        0deg,
+        #00a6fb,
+        #0582ca,
+        #8eecf5,
+        #006494,
+        #003554
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .navbar-logo img {
     height: 50px;
 }
@@ -39,7 +53,7 @@
 }
 
 .navbar-item a:hover {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2;z
 }
 
 /* Sign in/sign up buttons */
@@ -59,6 +73,11 @@
     transition: background-color 0.2s ease;
 }
 
+.Sign-In:hover {
+    background: linear-gradient(45deg, #7209b7, #3a0ca3, #4361ee);
+    color: white;
+}
+
 .Sign-Up {
     text-decoration: none;
     color: #fff;
@@ -66,10 +85,21 @@
     font-weight: 500;
     padding: 10px 50px;
     border-radius: 10px;
-    background-color: #4285f4;
+    background: linear-gradient(
+        45deg,
+        #f72585,
+        #7209b7,
+        #3a0ca3,
+        #4361ee,
+        #4cc9f0
+    );
     transition: background-color 0.2s ease;
 }
 
 .Sign-Up:hover {
-    background-color: #357ae8;
+    background: linear-gradient(45deg, #f72585, #7209b7);
 }
+
+/* background: linear-gradient(45deg, #5ac0b8, #0c1a9c, #6268a0);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
