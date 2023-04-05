@@ -6,8 +6,6 @@
 .companies {
     display: flex;
     justify-content: center;
-
-    background-color: #f5f8fb;
 }
 
 .company {

@@ -1,0 +1,22 @@
+.MainSlide-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.MainSlide-text p {
+    font-size: 130px;
+    font-weight: 600;
+}
+
+.my-paragraph {
+    background: linear-gradient(45deg, #f3ec78, #af4261, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.my-paragraphs {
+    background: linear-gradient(45deg, #5ac0b8, #0c1a9c, #6268a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
