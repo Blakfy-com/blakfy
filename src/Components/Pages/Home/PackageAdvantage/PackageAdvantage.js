@@ -10,23 +10,21 @@ import {
 function PackageAdvantage() {
     return (
         <div>
-            <div className="container">
-                <div className="rows">
-                    <div className="modulTittle">
-                        <h1>Türkiye'nin en gelişmiş e-ticaret yazılımı</h1>
-                        <p>
-                            En büyük e-ticaret sitelerinin kullandığı,
-                            Türkiye'nin en iyi e-ticaret alt yapısı ile zaman
-                            kaybetmeden başarıyı yakalayın.
-                            <br />
-                            <br />
-                            Benzersiz kapsamda, 7/24 teknik destek, Kampanya
-                            Kurguları, Pazarlama Modülleri ve Mobil Uygulamalar
-                            ile fark yaratın!
-                        </p>
-                    </div>
+            <div className="package-container">
+                <div className="rowsTitle">
+                    <h1>Türkiye'nin en gelişmiş e-ticaret yazılımı</h1>
+                    <p>
+                        En büyük e-ticaret sitelerinin kullandığı, Türkiye'nin
+                        en iyi e-ticaret alt yapısı ile zaman kaybetmeden
+                        başarıyı yakalayın.
+                        <br />
+                        <br />
+                        Benzersiz kapsamda, 7/24 teknik destek, Kampanya
+                        Kurguları, Pazarlama Modülleri ve Mobil Uygulamalar ile
+                        fark yaratın!
+                    </p>
                 </div>
-                <div className="rows rowTwo">
+                <div className="rowsList">
                     <div className="modul">
                         <p className="logo">
                             <BsSearch />

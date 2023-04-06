@@ -7,7 +7,6 @@ function Navbar() {
         <nav class="navbar">
             <div class="navbar-left">
                 <div class="navbar-logo">
-                    {/* <img src="/images/3.png" alt="Logo" /> */}
                     <button className="logo">B L A K F Y</button>
                 </div>
             </div>

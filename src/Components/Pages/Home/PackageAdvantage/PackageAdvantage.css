@@ -1,36 +1,50 @@
-.container {
-    text-align: center;
-    padding: 25px;
-    padding-bottom: 50px;
+.package-container {
+    margin: 100px;
 }
 
-.rows {
+.rowsTitle {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.rowsTitle h1 {
+    font-size: 70px;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 68, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rowsTitle p {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+/* rowslist */
+
+.rowsList {
     display: flex;
     justify-content: center;
 }
 
-/** ROW 1 **/
-
-.modulTittle h1 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 50px;
-}
-
-.modulTittle p {
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 100;
-    margin-bottom: 40px;
-}
-
-/** ROW 2 **/
-
 .modul {
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+    height: 250px;
 }
 
-/** ---- **/
+.modul .logo {
+    font-size: 50px;
+    color: rgb(73, 19, 199);
+    padding-bottom: 20px;
+}
 
-.modulItem {
-    background-color: red;
+.modul .title {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.modul .comment {
+    font-size: 20px;
+    padding-bottom: 20px;
 }
