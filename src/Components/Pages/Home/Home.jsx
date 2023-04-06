@@ -11,12 +11,14 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <MainSlide />
-            {/* <Slider /> */}
-            <br />
-            <Projects />
-            <br />
-            <PackageAdvantage />
+            <div className="mainHome">
+                <MainSlide />
+                {/* <Slider /> */}
+                <br />
+                <Projects />
+                <br />
+                <PackageAdvantage />
+            </div>
             <ContentKnowledge />
             <Footer />
         </div>

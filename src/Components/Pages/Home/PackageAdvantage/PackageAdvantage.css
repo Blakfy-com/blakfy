@@ -1,5 +1,5 @@
 .package-container {
-    margin: 100px;
+    padding: 100px 0 100px 0;
 }
 
 .rowsTitle {
@@ -9,12 +9,13 @@
 
 .rowsTitle h1 {
     font-size: 70px;
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 68, 255));
+    background: linear-gradient(90deg, rgb(240, 237, 237), rgb(0, 68, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .rowsTitle p {
+    padding: 0 400px 0 400px;
     margin-top: 50px;
     font-size: 25px;
 }
@@ -24,27 +25,33 @@
 .rowsList {
     display: flex;
     justify-content: center;
+    margin-top: 200px;
+    padding: 0 350px 0 350px;
 }
 
 .modul {
     text-align: center;
-    margin: 10px;
-    width: 400px;
-    height: 250px;
+    margin: 0 30px 0 30px;
+    padding: 0 30px 0 30px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .modul .logo {
     font-size: 50px;
-    color: rgb(73, 19, 199);
+    color: #202332;
     padding-bottom: 20px;
 }
 
 .modul .title {
+    color: #3a405c;
     font-size: 30px;
     padding-bottom: 20px;
 }
 
 .modul .comment {
-    font-size: 20px;
+    text-align: justify;
+    font-size: 18px;
     padding-bottom: 20px;
 }

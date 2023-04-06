@@ -3,19 +3,19 @@ import './Projects.css';
 
 function Projects() {
     return (
-        <section class="section">
-            <div class="companies">
-                <div class="company">
+        <section class="projects-section">
+            <div class="projects-companies">
+                <div class="projects-company">
                     <li class="companyImage">
                         <img src="/images/CompaniesLogo/Birincioglu.webp" />
                     </li>
                 </div>
-                <div class="company">
+                <div class="projects-company">
                     <li class="companyImage">
                         <img src="/images/CompaniesLogo/Galatahukuk.webp" />
                     </li>
                 </div>
-                <div class="company">
+                <div class="projects-company">
                     <li class="companyImage">
                         <img src="/images/CompaniesLogo/Tripslab.webp" />
                     </li>
