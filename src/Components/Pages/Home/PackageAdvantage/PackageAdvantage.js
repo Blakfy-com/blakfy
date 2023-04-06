@@ -1,6 +1,11 @@
 import React from 'react';
 import './PackageAdvantage.css';
-import { BsSearch } from 'react-icons/bs';
+import {
+    BsSearch,
+    BsInfoLg,
+    BsFillCartPlusFill,
+    BsFillChatSquareTextFill
+} from 'react-icons/bs';
 
 function PackageAdvantage() {
     return (
@@ -23,74 +28,59 @@ function PackageAdvantage() {
                 </div>
                 <div className="rows rowTwo">
                     <div className="modul">
-                        <div className="anasayfaItem">
+                        <p className="logo">
+                            <BsSearch />
+                        </p>
+                        <p className="title">
+                            <strong>Web Tasarımı</strong>
+                        </p>
+                        <p className="comment">
+                            Müşterilerin ihtiyaçlarına uygun web siteleri
+                            tasarlamak, özelleştirmek ve geliştirmek.
+                        </p>
+                    </div>
+                    <div className="modul">
+                        <div className="modulItem">
                             <p className="logo">
-                                <i>
-                                    <BsSearch />
-                                </i>
+                                <BsInfoLg />
                             </p>
                             <p className="title">
-                                <strong>Gelismis ve esnek</strong>
+                                <strong>Web Geliştirme</strong>
                             </p>
                             <p className="comment">
-                                Benzersiz bulut e-ticaret altyapısı ile
-                                trendleri zaman ve para kaybetmeden yakalayın.
-                                Satışlarınızı arttırın ve operasyonel
-                                yüklerinizi hafifletin.
+                                Web sitelerinin kodlamasını ve teknik yönlerini
+                                yönetmek.
                             </p>
                         </div>
                     </div>
                     <div className="modul">
-                        <div className="anasayfaItem">
+                        <div className="modulItem">
                             <p className="logo">
-                                <i>
-                                    <BsSearch />
-                                </i>
+                                <BsFillCartPlusFill />
                             </p>
                             <p className="title">
-                                <strong>Gelismis ve esnek</strong>
+                                <strong>SEO ve Dijital Pazarlama</strong>
                             </p>
                             <p className="comment">
-                                Benzersiz bulut e-ticaret altyapısı ile
-                                trendleri zaman ve para kaybetmeden yakalayın.
-                                Satışlarınızı arttırın ve operasyonel
-                                yüklerinizi hafifletin.
+                                Müşterilerin web sitelerinin görünürlüğünü
+                                artırmak ve trafiklerini artırmak için arama
+                                motoru optimizasyonu (SEO) ve dijital pazarlama
+                                stratejileri sunmak.
                             </p>
                         </div>
                     </div>
                     <div className="modul">
-                        <div className="anasayfaItem">
+                        <div className="modulItem">
                             <p className="logo">
-                                <i>
-                                    <BsSearch />
-                                </i>
+                                <BsFillChatSquareTextFill />
                             </p>
                             <p className="title">
-                                <strong>Gelismis ve esnek</strong>
+                                <strong>Marka ve Grafik Tasarımı</strong>
                             </p>
                             <p className="comment">
-                                Benzersiz bulut e-ticaret altyapısı ile
-                                trendleri zaman ve para kaybetmeden yakalayın.
-                                Satışlarınızı arttırın ve operasyonel
-                                yüklerinizi hafifletin.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="modul">
-                        <div className="anasayfaItem">
-                            <p className="logo">
-                                <i>
-                                    <BsSearch />
-                                </i>
-                            </p>
-                            <p className="title">
-                                <strong>Gelismis ve esnek</strong>
-                            </p>
-                            <p className="comment">
-                                Benzersiz bulut e-ticaret altyapısı ile
-                                trendleri zaman ve para kaybetmeden yakalayın.
-                                Satışlarınızı arttırın ve operasyonel
-                                yüklerinizi hafifletin.
+                                Müşterilerin marka kimliklerini tasarlamak ve
+                                geliştirmek, logo, broşür, afiş vb. grafik
+                                tasarım hizmetleri sunmak.
                             </p>
                         </div>
                     </div>
