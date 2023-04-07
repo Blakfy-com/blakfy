@@ -30,11 +30,12 @@ function PackageAdvantage() {
                             <BsSearch />
                         </p>
                         <p className="title">
-                            <strong>Web Tasarımı</strong>
+                            <strong>Web Design</strong>
                         </p>
                         <p className="comment">
-                            Müşterilerin ihtiyaçlarına uygun web siteleri
-                            tasarlamak, özelleştirmek ve geliştirmek.
+                            Strengthen your brand's profile in the digital
+                            world. Professional, functional and always stunning
+                            pages. Dynamic and interactive user areas.
                         </p>
                     </div>
                     <div className="modul">
@@ -43,11 +44,13 @@ function PackageAdvantage() {
                                 <BsInfoLg />
                             </p>
                             <p className="title">
-                                <strong>Web Geliştirme</strong>
+                                <strong>E-Commerce</strong>
                             </p>
                             <p className="comment">
-                                Web sitelerinin kodlamasını ve teknik yönlerini
-                                yönetmek.
+                                We produce end-user-oriented and functional
+                                e-commerce sites! A stronger and target-oriented
+                                process is possible with the fast infrastructure
+                                we have established for you.
                             </p>
                         </div>
                     </div>
@@ -57,13 +60,13 @@ function PackageAdvantage() {
                                 <BsFillCartPlusFill />
                             </p>
                             <p className="title">
-                                <strong>SEO ve Dijital Pazarlama</strong>
+                                <strong>Web software</strong>
                             </p>
                             <p className="comment">
-                                Müşterilerin web sitelerinin görünürlüğünü
-                                artırmak ve trafiklerini artırmak için arama
-                                motoru optimizasyonu (SEO) ve dijital pazarlama
-                                stratejileri sunmak.
+                                We encode your digital identity! Share with us
+                                ready-to-use functional software projects for
+                                your brand, business or project. We love to
+                                produce!
                             </p>
                         </div>
                     </div>
@@ -73,12 +76,13 @@ function PackageAdvantage() {
                                 <BsFillChatSquareTextFill />
                             </p>
                             <p className="title">
-                                <strong>Marka ve Grafik Tasarımı</strong>
+                                <strong>Graphic Design</strong>
                             </p>
                             <p className="comment">
-                                Müşterilerin marka kimliklerini tasarlamak ve
-                                geliştirmek, logo, broşür, afiş vb. grafik
-                                tasarım hizmetleri sunmak.
+                                We let our creativity speak as we raise your
+                                voice! With İlter Graphic Design team, your
+                                brand will be enjoyable once again, from its
+                                logo to its e-bulletins.
                             </p>
                         </div>
                     </div>

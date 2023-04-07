@@ -6,7 +6,7 @@ function Contact() {
     return (
         <div>
             <Navbar />
-            <h1>Burasi Contact sayfasi</h1>
+
             <Footer />
         </div>
     );
