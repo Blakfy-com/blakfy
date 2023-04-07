@@ -1,0 +1,90 @@
+.about-about {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#ffffff),
+        to(#7e42efea)
+    );
+}
+
+.about-main {
+    margin: 50px 10% 50px 10%;
+}
+
+.about-main h2 {
+    font-size: 100px;
+}
+
+/*!  C E N T E R !*/
+
+.about-center {
+    margin: 50px 10% 50px 10%;
+}
+
+.about-title {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 25px;
+    padding: 25px;
+}
+
+.about-logo {
+    width: 200px;
+    height: 100px;
+    margin: 10px 50px 10px 10px;
+    padding: 10px;
+}
+
+.about-logo .SiMicrostrategy,
+.SiAffinitydesigner,
+.SiAffinitypublisher,
+.SiTencentqq {
+    font-size: 100px;
+}
+
+.about-comment {
+    width: 100%;
+    height: initial;
+}
+
+.about-comment h4 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.about-comment p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/*! F O T T E R  !*/
+
+.about-footer {
+    margin: 100px 10% 100px 10%;
+    font-size: 25px;
+    display: flex;
+}
+
+.about-footer-title {
+    margin: 50px;
+    width: 2000px;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.about-footer-comment {
+    margin: 50px;
+    padding: 25px;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+/*  */
