@@ -5,6 +5,7 @@ import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
 import Services from './Components/Pages/Services/Services';
 import Signup from './Components/Pages/Sign/Signup';
+import Signin from './Components/Pages/Sign/Signin';
 import Login from './Components/Pages/Sign/Login';
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route exact path="/Services" element={<Services />} />
                 <Route exact path="/Singup" element={<Signup />} />
                 <Route exact path="/Login" element={<Login />} />
+                <Route exact path="/Signin" element={<Signin />} />
             </Routes>
         </BrowserRouter>
     );
