@@ -22,22 +22,24 @@ function Login() {
 
                 <p className="log-r-t">Login your BLAKFY Account</p>
 
-                <input value="Email/Phone" />
+                <input className="log-input" value="Email/Phone" />
 
-                <input value="Password" />
+                <input className="log-input" value="Password" />
 
-                <a>Forgot Password</a>
+                <a className="log-l-res-pw" href="#">
+                    Forgot Password ?
+                </a>
 
-                <button>Login</button>
-
-                <button>Reguest OTP</button>
-
-                <div>
-                    <button>Google</button>
+                <div className="lrlis">
+                    <button className="lrlis-button">Login</button>
+                    <button className="lrlis-button">Reguest OTP</button>
                 </div>
 
-                <div>
-                    <button>Facebook</button>
+                <div className="log-r-br"></div>
+
+                <div className="lsl">
+                    <button className="lsl-button">Google</button>
+                    <button className="lsl-button">Facebook</button>
                 </div>
             </div>
         </div>

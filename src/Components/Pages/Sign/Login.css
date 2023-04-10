@@ -82,6 +82,8 @@
     font-size: 50px;
 }
 
+/* LOGIN INPUT */
+
 .log-r-t {
     text-decoration: none;
 
@@ -92,4 +94,58 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
+}
+
+.log-input {
+    width: 700px;
+    height: 50px;
+    border-radius: 50px solid;
+    margin-bottom: 25px;
+}
+
+.lrlis {
+    display: flex;
+}
+
+/* RESET PASSWORD */
+
+.log-l-res-pw {
+    text-decoration: none;
+    color: black;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+/* LOGIN BUTTON */
+
+.lrlis-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 7px 1px;
+    margin-right: 50px;
+
+    background-color: #fff;
+}
+
+.lrlis-button:hover {
+    background-color: #00e1ffa4;
+}
+
+.log-r-br {
+    background: black;
+    width: 25px;
+}
+
+.lsl-button {
+    background-color: red;
+
+    width: 300px;
+    height: 50px;
+    border-radius: 5px 1px;
+    margin-right: 50px;
+
+    background-color: #fff;
 }
