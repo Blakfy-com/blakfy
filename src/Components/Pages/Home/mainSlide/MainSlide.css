@@ -1,22 +1,27 @@
 .MainSlide-container {
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 0 10% 0 10%;
+}
+
+.MainSlide-text {
+    margin: 100px 10% 80px 10%;
 }
 
 .MainSlide-text p {
-    font-size: 130px;
+    font-size: 90px;
     font-weight: 600;
+    text-align: justify;
 }
 
-.my-paragraph {
+.MainSlide-my-paragraph {
     background: linear-gradient(45deg, #f3ec78, #af4261, #00c6ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.my-paragraphs {
+/* .my-paragraphs {
     background: linear-gradient(45deg, #5ac0b8, #0c1a9c, #6268a0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */

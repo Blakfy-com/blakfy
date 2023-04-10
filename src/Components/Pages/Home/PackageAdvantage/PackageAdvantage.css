@@ -1,63 +1,56 @@
-.container {
+.package-container {
+    margin: 100px 10% 100px 10%;
+}
+
+.rowsTitle {
     text-align: center;
-    padding: 25px;
-    padding-bottom: 50px;
 }
 
-.rows {
-    display: flex;
-    justify-content: center;
+.rowsTitle h1 {
+    font-size: 70px;
+    background: linear-gradient(90deg, rgb(240, 237, 237), rgb(0, 68, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 20px;
 }
 
-/** ROW 1 **/
-
-.modulTittle h1 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 50px;
-}
-
-.modulTittle p {
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 100;
-    margin-bottom: 40px;
-}
-
-/** ROW 2 **/
-
-.rowTwo {
-    margin: 0 70px 0 70px;
-}
-
-.modul {
-    margin: 0 10px 0 20px;
-}
-
-.anasayfaItem {
-    margin: 40px;
-    padding: 40px;
-}
-
-.logo {
-    font-size: 60px;
-    color: #4285f4;
-}
-
-.iconColor {
-    font-size: 60px;
-    background: linear-gradient(45deg, #f3ec78, #af4261, #00c6ff);
-}
-
-.title {
-    margin-top: 10px;
-    font-weight: bold;
+.rowsTitle p {
+    margin: auto 20% auto 20%;
+    padding-top: 25px;
     font-size: 25px;
 }
 
-.comment {
-    margin-top: 10px;
+/* rowslist */
+
+.rowsList {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.modul {
+    text-align: center;
+    margin: 0 30px 0 30px;
+    padding: 0 30px 0 30px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modul .logo {
+    font-size: 50px;
+    color: #202332;
+    padding-bottom: 20px;
+}
+
+.modul .title {
+    color: #3a405c;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.modul .comment {
+    text-align: justify;
     font-size: 18px;
-    line-height: 20px;
-    font-weight: 100;
+    padding-bottom: 20px;
 }

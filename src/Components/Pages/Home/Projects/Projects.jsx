@@ -3,25 +3,23 @@ import './Projects.css';
 
 function Projects() {
     return (
-        <section class="section">
-            <div class="companies">
-                <div class="company">
-                    <li class="companyImage">
-                        <img src="/images/CompaniesLogo/Birincioglu.webp" />
-                    </li>
-                </div>
-                <div class="company">
-                    <li class="companyImage">
-                        <img src="/images/CompaniesLogo/Galatahukuk.webp" />
-                    </li>
-                </div>
-                <div class="company">
-                    <li class="companyImage">
-                        <img src="/images/CompaniesLogo/Tripslab.webp" />
-                    </li>
-                </div>
+        <div class="projects-companies">
+            <div class="projects-company">
+                <li class="companyImage">
+                    <img src="/images/CompaniesLogo/Birincioglu.webp" />
+                </li>
             </div>
-        </section>
+            <div class="projects-company">
+                <li class="companyImage">
+                    <img src="/images/CompaniesLogo/Galatahukuk.webp" />
+                </li>
+            </div>
+            <div class="projects-company">
+                <li class="companyImage">
+                    <img src="/images/CompaniesLogo/Tripslab.webp" />
+                </li>
+            </div>
+        </div>
     );
 }
 
