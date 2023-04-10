@@ -1,1 +1,359 @@
+.con-form-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
+    padding: 50px;
+}
+
+/* Up Form Main  */
+.contact-form {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 135px;
+
+    width: 1238px;
+    height: 725px;
+    left: 93px;
+    top: 205px;
+
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+/* FORM LEFT */
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 54px;
+
+    width: 538px;
+    height: 558px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/** FORM COLUMN 1 */
+
+.left-col-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 538px;
+    height: 192px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.left-col-1 h1 {
+    font-family: 'Noe Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.left-col-1 p {
+    width: 538px;
+    height: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/** FORM COLUMN 2 */
+
+.left-col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 152px;
+    height: 85px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.left-col-2 h4 {
+    width: 85px;
+    height: 41px;
+
+    font-family: 'Noe Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.left-col-2 a {
+    width: 152px;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height */
+
+    color: #000000;
+
+    text-decoration: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* FORM RIGHT MAIN */
+.form-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 28px;
+
+    width: 565px;
+    height: 725px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* RIGHT NAME */
+
+/* NAME */
+
+.form.input.name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    width: 563px;
+    height: 82px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.form-input-name label {
+    /* Name */
+
+    width: 43px;
+    height: 21px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.form-input-name input {
+    width: 563px;
+    height: 46px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* EMAIL */
+
+.form.input.email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    width: 563px;
+    height: 82px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.form-input-email label {
+    /* Name */
+
+    width: 43px;
+    height: 21px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.form-input-email input {
+    width: 563px;
+    height: 46px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* COMMIT */
+
+.form.input.commit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    width: 563px;
+    height: 201px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.form-input-commit label {
+    /* Name */
+
+    width: 43px;
+    height: 21px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.form-input-commit textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    width: 563px;
+    height: 201px;
+
+    resize: none;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* SUBMIT */
+
+.form-submit {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 246px;
+    gap: 10px;
+
+    background: #000000;
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.form-submit button {
+    width: 73px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
