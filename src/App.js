@@ -16,6 +16,7 @@ function App() {
                 <Route exact path="/Services" element={<Services />} />
                 <Route exact path="/Singup" element={<Signup />} />
                 <Route exact path="/Login" element={<Login />} />
+                
             </Routes>
         </BrowserRouter>
     );
