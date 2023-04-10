@@ -1,10 +1,10 @@
 import React from 'react';
+import Navbar from '../../Navbar/Navbar';
 
 function Signup() {
     return (
         <div>
-            <h1>Signup</h1>
-            <h2>Burasi Singup sayfasi</h2>
+            <Navbar />
         </div>
     );
 }

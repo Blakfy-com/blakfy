@@ -5,7 +5,7 @@ import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
 import Services from './Components/Pages/Services/Services';
 import Signup from './Components/Pages/Sign/Signup';
-import SignIn from './Components/Pages/Sign/SignIn';
+import Login from './Components/Pages/Sign/Login';
 function App() {
     return (
         <BrowserRouter>
@@ -15,7 +15,7 @@ function App() {
                 <Route exact path="/Contact" element={<Contact />} />
                 <Route exact path="/Services" element={<Services />} />
                 <Route exact path="/Singup" element={<Signup />} />
-                <Route exact path="/Singin" element={<SignIn />} />
+                <Route exact path="/Login" element={<Login />} />
             </Routes>
         </BrowserRouter>
     );

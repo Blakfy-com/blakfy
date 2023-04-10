@@ -1,13 +1,16 @@
 import React from 'react';
-import './Navbar.css';
 import { NavLink } from 'react-router-dom';
+
+import './Navbar.css';
 
 function Navbar() {
     return (
         <nav class="navbar">
             <div class="navbar-left">
-                <div class="navbar-logo">
-                    <button className="logo">B L A K F Y</button>
+                <div class="bar-logo">
+                    <a className="barLogo" href="/">
+                        B L A K F Y
+                    </a>
                 </div>
             </div>
 
@@ -32,8 +35,8 @@ function Navbar() {
 
             <div class="navbar-right">
                 <div class="navbar-auth">
-                    <a className="Sign-In" href="Singin">
-                        Sign In
+                    <a className="Login" href="Login">
+                        Login
                     </a>
                     <a className="Sign-Up" href="Singup">
                         Sign Up

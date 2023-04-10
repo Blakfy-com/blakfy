@@ -8,7 +8,8 @@
 
 .rowsTitle h1 {
     font-size: 70px;
-    background: linear-gradient(90deg, rgb(240, 237, 237), rgb(0, 68, 255));
+    background: linear-gradient(270deg, #1e90ff, #2e14a1);
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom: 20px;
@@ -39,12 +40,12 @@
 
 .modul .logo {
     font-size: 50px;
-    color: #202332;
+    color: #1e90ff;
     padding-bottom: 20px;
 }
 
 .modul .title {
-    color: #3a405c;
+    color: #1e90ff;
     font-size: 30px;
     padding-bottom: 20px;
 }

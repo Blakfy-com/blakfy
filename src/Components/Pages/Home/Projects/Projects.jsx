@@ -3,21 +3,15 @@ import './Projects.css';
 
 function Projects() {
     return (
-        <div class="projects-companies">
-            <div class="projects-company">
-                <li class="companyImage">
-                    <img src="/images/CompaniesLogo/Birincioglu.webp" />
-                </li>
+        <div className="projects-container">
+            <div className="projects-items">
+                <img src="/images/CompaniesLogo/Birincioglu.webp" />
             </div>
-            <div class="projects-company">
-                <li class="companyImage">
-                    <img src="/images/CompaniesLogo/Galatahukuk.webp" />
-                </li>
+            <div className="projects-items">
+                <img src="/images/CompaniesLogo/Galatahukuk.webp" />
             </div>
-            <div class="projects-company">
-                <li class="companyImage">
-                    <img src="/images/CompaniesLogo/Tripslab.webp" />
-                </li>
+            <div className="projects-items">
+                <img src="/images/CompaniesLogo/Tripslab.webp" />
             </div>
         </div>
     );

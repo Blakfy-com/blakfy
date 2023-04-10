@@ -15,7 +15,7 @@
 }
 
 .MainSlide-my-paragraph {
-    background: linear-gradient(45deg, #f3ec78, #af4261, #00c6ff);
+    background: linear-gradient(100deg, #1e90ff, #1a0b5e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

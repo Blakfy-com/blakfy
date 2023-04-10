@@ -5,8 +5,10 @@ function Footer() {
     return (
         <footer class="footer">
             <div class="footer-left">
-                <div class="footer-logo">
-                    <img src="/images/3.png" alt="Logo" />
+                <div class="bar-logo">
+                    <a className="footer-logo-color" href="#">
+                        B L A K F Y
+                    </a>
                 </div>
             </div>
 
