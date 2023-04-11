@@ -10,14 +10,13 @@
     align-items: center;
 
     gap: 50px;
-
-    background-image: radial-gradient(#1e8fffa4, #1e90ff, #1e8fffa4);
 }
 
 /** LOGIN LEFT  */
 
 .log-l {
     height: 100%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -25,6 +24,8 @@
     align-items: center;
 
     gap: 100px;
+
+    background-image: radial-gradient(#1e8fffa4, #1e90ff, #1e8fffa4);
 }
 
 /* LEFT TOP */
@@ -41,6 +42,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    text-decoration: none;
 }
 
 .log-l-top-2 {
@@ -71,6 +74,10 @@
 .log-r {
     display: flex;
     flex-direction: column;
+
+    background-color: white;
+
+    width: 100%;
 }
 
 .log-r-log {
@@ -97,10 +104,17 @@
 }
 
 .log-input {
-    width: 700px;
+    width: 600px;
     height: 50px;
-    border-radius: 50px solid;
+    border-radius: 7px;
     margin-bottom: 25px;
+
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.log-input::placeholder {
+    font-size: 16px;
 }
 
 .lrlis {
@@ -109,7 +123,7 @@
 
 /* RESET PASSWORD */
 
-.log-l-res-pw {
+.log-r-res-pw {
     text-decoration: none;
     color: black;
 
@@ -121,31 +135,66 @@
 
 /* LOGIN BUTTON */
 
+.lrlis {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .lrlis-button {
-    width: 100px;
+    width: 150px;
     height: 50px;
     border-radius: 7px 1px;
     margin-right: 50px;
 
-    background-color: #fff;
+    background-color: #1e90ff;
+    color: #f2f2f2;
+    font-size: 16px;
 }
 
 .lrlis-button:hover {
-    background-color: #00e1ffa4;
+    background: #f2f2f2;
+    color: #1e90ff;
+    border: #f2f2f2 1px;
+    font-size: 18px;
 }
 
-.log-r-br {
-    background: black;
-    width: 25px;
+/* BR BR BR BR BR BR BR */
+
+.lglbr {
+    display: flex;
+    align-items: center;
+}
+
+.lglbrc {
+    border-top: 1px solid black;
+    width: 300px;
+}
+
+.lglbr-or {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+/* GOOGLE AND FACEBOOK BUTTON */
+
+.lsl {
+    margin-top: 20px;
 }
 
 .lsl-button {
-    background-color: red;
-
     width: 300px;
     height: 50px;
     border-radius: 5px 1px;
     margin-right: 50px;
 
-    background-color: #fff;
+    background-color: #f2f2f2;
+    border: 1px solid #1e90ff;
+
+    font-size: 16px;
+}
+
+.lsl-button:hover {
+    background: #1e90ff;
+    color: #f2f2f2;
 }

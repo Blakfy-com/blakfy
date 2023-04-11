@@ -8,13 +8,17 @@ function Login() {
         <div className="log-container">
             <div className="log-l">
                 <div className="log-l-top">
-                    <p className="log-l-top-1">New Member?</p>
+                    <a href="/" className="log-l-top-1">
+                        New Member?
+                    </a>
                     <p className="log-l-top-2">Signup</p>
                 </div>
 
                 <img src="/images/svg/sign/log-in.png" />
             </div>
+
             {/* ======================= */}
+
             <div className="log-r">
                 <a className="log-r-log" href="/">
                     B L A K F Y
@@ -22,11 +26,11 @@ function Login() {
 
                 <p className="log-r-t">Login your BLAKFY Account</p>
 
-                <input className="log-input" value="Email/Phone" />
+                <input className="log-input" placeholder="Email/Phone" />
 
-                <input className="log-input" value="Password" />
+                <input className="log-input" placeholder="Password" />
 
-                <a className="log-l-res-pw" href="#">
+                <a className="log-r-res-pw" href="#">
                     Forgot Password ?
                 </a>
 
@@ -35,7 +39,11 @@ function Login() {
                     <button className="lrlis-button">Reguest OTP</button>
                 </div>
 
-                <div className="log-r-br"></div>
+                <div class="lglbr">
+                    <div class="lglbrc"></div>
+                    <span class="lglbr-or">Or</span>
+                    <div class="lglbrc"></div>
+                </div>
 
                 <div className="lsl">
                     <button className="lsl-button">Google</button>
