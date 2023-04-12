@@ -7,55 +7,74 @@ import './Login.css';
 
 function Login() {
     return (
-        <div className="log-container">
-            <div className="log-l">
-                <div className="log-l-top">
-                    <a href="/" className="log-l-top-1">
+        <div className="login-container">
+            <div className="logImCo">
+                <div className="imCoTop">
+                    <a href="/" className="coTopNeMember">
                         New Member?
                     </a>
-                    <a href="/Singup" className="log-l-top-2">
-                        Signup
+                    <a href="/Singup" className="coTopSignUp">
+                        Sign up
                     </a>
                 </div>
-
-                <img src="/images/svg/sign/log-in-1.png" />
+                <div className="imCoImages">
+                    <img src="/images/svg/sign/log-in-1.png" />
+                </div>
             </div>
 
             {/* ======================= */}
 
-            <div className="log-r">
-                <a className="login-r-logo" href="/">
-                    B L A K F Y
-                </a>
-
-                <p className="login-r-text">Login your BLAKFY Account</p>
-
-                <input className="log-input" placeholder="Email/Phone" />
-
-                <input className="log-pass" placeholder="Password" />
-
-                <a className="log-r-res-pw" href="#">
-                    Forgot Password ?
-                </a>
-
-                <div className="lrlis">
-                    <button className="lrlis-button">Login</button>
-                    <button className="lrlis-button">Reguest OTP</button>
+            <div className="login">
+                <div className="loginLogo">
+                    <a className="loginLogo-A" href="/">
+                        B L A K F Y
+                    </a>
                 </div>
 
-                <div class="lglbr">
-                    <div class="lglbrc"></div>
-                    <span class="lglbr-or">Or</span>
-                    <div class="lglbrc"></div>
+                <div className="loginyourAccount">
+                    <p className="loginyourAccount-text">
+                        Login your BLAKFY Account
+                    </p>
                 </div>
 
-                <div className="lsl">
-                    <div className="lsl-div">
-                        <FcGoogle className="lsl-icon" />
+                <div className="loginInput-mail">
+                    <input className=" loginInput" placeholder="Email/Phone" />
+                </div>
+
+                <div className="loginInput-pw">
+                    <input className=" loginInput" placeholder="Password" />
+                </div>
+
+                <div className="resetPw">
+                    <a className="resetPw-a" href="#">
+                        Forgot Password ?
+                    </a>
+                </div>
+
+                <div className="login-buttons">
+                    <div className="loginButton">
+                        <button className="register-page-Button">Login</button>
+                    </div>
+                    <div className="loginButton">
+                        <button className="register-page-Button">
+                            Reguest OTP
+                        </button>
+                    </div>
+                </div>
+
+                <div class="line">
+                    <div class="line-div1"></div>
+                    <span class="line-or">Or</span>
+                    <div class="line-div1"></div>
+                </div>
+
+                <div className="social-login">
+                    <div className="social-login-div">
+                        <FcGoogle className="social-login-icon" />
                         <p>Google</p>
                     </div>
-                    <div className="lsl-div">
-                        <AiFillFacebook className="lsl-icon" />
+                    <div className="social-login-div">
+                        <AiFillFacebook className="social-login-icon" />
                         <p>Facebook</p>
                     </div>
                 </div>

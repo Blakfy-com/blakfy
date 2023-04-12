@@ -1,4 +1,4 @@
-.log-container {
+.login-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -14,7 +14,7 @@
 
 /** LOGIN LEFT  */
 
-.log-l {
+.logImCo {
     height: 100%;
     width: 100%;
 
@@ -23,19 +23,19 @@
     justify-content: center;
     align-items: center;
 
-    gap: 100px;
+    gap: 40px;
 
     background-image: radial-gradient(#1e8fffa4, #1e90ff, #1e8fffa4);
 }
 
-/* LEFT TOP */
+/* IMG NewMember and Sign Up container */
 
-.log-l-top {
+.imCoTop {
     display: flex;
     justify-content: center;
 }
 
-.log-l-top-1 {
+.coTopNeMember {
     color: white;
     padding-right: 50px;
 
@@ -46,7 +46,7 @@
     text-decoration: none;
 }
 
-.log-l-top-2 {
+.coTopSignUp {
     width: 100px;
     height: 30px;
     text-decoration: none;
@@ -66,13 +66,16 @@
     align-items: center;
 }
 
-.log-l-top-2:hover {
+.imCoImages {
+}
+
+.coTop2:hover {
     background: #4652ff8e;
 }
 
 /* RIGHT  */
 
-.log-r {
+.login {
     display: flex;
     flex-direction: column;
 
@@ -81,32 +84,38 @@
     width: 100%;
 }
 
-.login-r-logo {
-    text-decoration: none;
-
+.loginLogo {
     width: 100%;
     height: 60px;
 
+    padding-bottom: 30px;
+}
+.loginLogo-A {
     font-size: 50px;
+    text-decoration: none;
 }
 
 /* LOGIN INPUT */
 
-.login-r-text {
-    text-decoration: none;
-
+.loginyourAccount {
     width: 100%;
     height: 40px;
+}
 
+.loginyourAccount-text {
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
 }
 
-.log-input {
+/* Login Input */
+
+.loginInput {
     width: 600px;
     height: 50px;
+
     border-radius: 7px;
     margin-bottom: 25px;
 
@@ -114,18 +123,7 @@
     padding-left: 25px;
 }
 
-.log-pass {
-    width: 600px;
-    height: 50px;
-    border-radius: 7px;
-    margin-bottom: 25px;
-
-    font-size: 18px;
-    padding-left: 25px;
-}
-
-
-.log-input::placeholder {
+.loginInput::placeholder {
     font-size: 16px;
 }
 
@@ -135,27 +133,35 @@
 
 /* RESET PASSWORD */
 
-.log-r-res-pw {
+.resetPw-a {
     text-decoration: none;
-    color: black;
-
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 31px;
 }
 
-/* LOGIN BUTTON */
-
-.lrlis {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.resetPw-a:hover {
+    color: orange;
 }
 
-.lrlis-button {
+/* LOGIN BUTTON */
+
+.login-buttons {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+}
+
+.loginButton {
+    margin: 5px;
+}
+
+.register-page-Button {
     width: 150px;
     height: 50px;
-    border-radius: 7px 1px;
+    border-radius: 6px 1px;
     margin-right: 50px;
 
     background-color: #1e90ff;
@@ -163,7 +169,7 @@
     font-size: 16px;
 }
 
-.lrlis-button:hover {
+.register-page-Button:hover {
     background: #f2f2f2;
     color: #1e90ff;
     border: #f2f2f2 1px;
@@ -172,30 +178,30 @@
 
 /* BR BR BR BR BR BR BR */
 
-.lglbr {
+.line {
     display: flex;
     align-items: center;
 }
 
-.lglbrc {
+.line-div1 {
     border-top: 1px solid black;
     width: 300px;
 }
 
-.lglbr-or {
+.line-or {
     display: inline-block;
     padding: 0 10px;
     font-size: 14px;
 }
 
-/* GOOGLE AND FACEBOOK BUTTON */
+/* SOCIAL MEDIA LOGIN */
 
-.lsl {
+.social-login {
     margin-top: 20px;
     display: flex;
 }
 
-.lsl-div {
+.social-login-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,12 +217,12 @@
     font-size: 20px;
 }
 
-.lsl-div:hover {
+.social-login-div:hover {
     background: #1e90ff;
     color: #f2f2f2;
 }
 
-.lsl-icon {
+.social-login-icon {
     font-size: 30px;
     padding-right: 20px;
 }
