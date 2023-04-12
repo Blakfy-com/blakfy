@@ -49,6 +49,7 @@
 .log-l-top-2 {
     width: 100px;
     height: 30px;
+    text-decoration: none;
 
     font-style: normal;
     font-weight: 400;
@@ -180,9 +181,14 @@
 
 .lsl {
     margin-top: 20px;
+    display: flex;
 }
 
-.lsl-button {
+.lsl-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 300px;
     height: 50px;
     border-radius: 5px 1px;
@@ -191,10 +197,15 @@
     background-color: #f2f2f2;
     border: 1px solid #1e90ff;
 
-    font-size: 16px;
+    font-size: 20px;
 }
 
-.lsl-button:hover {
+.lsl-div:hover {
     background: #1e90ff;
     color: #f2f2f2;
+}
+
+.lsl-icon {
+    font-size: 30px;
+    padding-right: 20px;
 }

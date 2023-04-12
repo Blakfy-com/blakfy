@@ -6,6 +6,8 @@ import Contact from './Components/Pages/Contact/Contact';
 import Services from './Components/Pages/Services/Services';
 import Signup from './Components/Pages/Sign/Signup';
 import Login from './Components/Pages/Sign/Login';
+import LoginOTP from './Components/Pages/Sign/LoginOTP';
+
 function App() {
     return (
         <BrowserRouter>
@@ -16,7 +18,9 @@ function App() {
                 <Route exact path="/Services" element={<Services />} />
                 <Route exact path="/Singup" element={<Signup />} />
                 <Route exact path="/Login" element={<Login />} />
-                
+
+                {/* Login after OTP */}
+                <Route exact path="/LoginOTP" element={<LoginOTP />} />
             </Routes>
         </BrowserRouter>
     );

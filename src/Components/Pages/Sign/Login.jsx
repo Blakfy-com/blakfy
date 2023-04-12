@@ -1,5 +1,7 @@
 import React from 'react';
-import Navbar from '../../Navbar/Navbar';
+
+import { FcGoogle } from 'react-icons/fc';
+import { AiFillFacebook } from 'react-icons/ai';
 
 import './Login.css';
 
@@ -11,7 +13,9 @@ function Login() {
                     <a href="/" className="log-l-top-1">
                         New Member?
                     </a>
-                    <p className="log-l-top-2">Signup</p>
+                    <a href="/Singup" className="log-l-top-2">
+                        Signup
+                    </a>
                 </div>
 
                 <img src="/images/svg/sign/log-in.png" />
@@ -46,8 +50,14 @@ function Login() {
                 </div>
 
                 <div className="lsl">
-                    <button className="lsl-button">Google</button>
-                    <button className="lsl-button">Facebook</button>
+                    <div className="lsl-div">
+                        <FcGoogle className="lsl-icon" />
+                        <p>Google</p>
+                    </div>
+                    <div className="lsl-div">
+                        <AiFillFacebook className="lsl-icon" />
+                        <p>Facebook</p>
+                    </div>
                 </div>
             </div>
         </div>
