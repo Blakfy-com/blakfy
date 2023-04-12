@@ -18,21 +18,21 @@ function Login() {
                     </a>
                 </div>
 
-                <img src="/images/svg/sign/log-in.png" />
+                <img src="/images/svg/sign/log-in-1.png" />
             </div>
 
             {/* ======================= */}
 
             <div className="log-r">
-                <a className="log-r-log" href="/">
+                <a className="login-r-logo" href="/">
                     B L A K F Y
                 </a>
 
-                <p className="log-r-t">Login your BLAKFY Account</p>
+                <p className="login-r-text">Login your BLAKFY Account</p>
 
                 <input className="log-input" placeholder="Email/Phone" />
 
-                <input className="log-input" placeholder="Password" />
+                <input className="log-pass" placeholder="Password" />
 
                 <a className="log-r-res-pw" href="#">
                     Forgot Password ?

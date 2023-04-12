@@ -81,7 +81,7 @@
     width: 100%;
 }
 
-.log-r-log {
+.login-r-logo {
     text-decoration: none;
 
     width: 100%;
@@ -92,7 +92,7 @@
 
 /* LOGIN INPUT */
 
-.log-r-t {
+.login-r-text {
     text-decoration: none;
 
     width: 100%;
@@ -113,6 +113,17 @@
     font-size: 18px;
     padding-left: 25px;
 }
+
+.log-pass {
+    width: 600px;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+
+    font-size: 18px;
+    padding-left: 25px;
+}
+
 
 .log-input::placeholder {
     font-size: 16px;

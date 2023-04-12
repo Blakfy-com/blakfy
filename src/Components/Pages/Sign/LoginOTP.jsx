@@ -13,7 +13,7 @@ function LoginOTP() {
                     <p className="log-l-top-2">Signup</p>
                 </div>
 
-                <img src="/images/svg/sign/log-in.png" />
+                <img src="/images/svg/sign/log-in-1.png" />
             </div>
 
             {/* ======================= */}
