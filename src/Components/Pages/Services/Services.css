@@ -1,11 +1,4 @@
 .about-about {
-    background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#ffffff),
-        to(#7e42efea)
-    );
 }
 
 .about-main {
@@ -42,6 +35,7 @@
 .SiAffinitypublisher,
 .SiTencentqq {
     font-size: 100px;
+    color: #1e90ff;
 }
 
 .about-comment {

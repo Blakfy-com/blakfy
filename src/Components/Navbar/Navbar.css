@@ -18,7 +18,7 @@
     font-size: 50px;
     text-decoration: none;
     border: none;
-    background: linear-gradient(90deg, #1e90ff, #1e8fff50);
+    background: linear-gradient(90deg, #1e90ff, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -44,7 +44,7 @@
 }
 
 .navbar-item a:hover {
-    background-color: #1e8fff2a;
+    background-color: orange;
     transition: 0.5s;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .Login:hover {
-    background: linear-gradient(90deg, #1e90ff, #1e90ff);
+    background: orange;
     color: white;
     transition: 0.3s;
 }
@@ -83,8 +83,6 @@
 /*! SING UP */
 
 .Sign-Up {
-    background-color: red;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,12 +95,12 @@
     text-decoration: none;
     color: white;
 
-    background: linear-gradient(90deg, #1e90ff, #1e90ff);
+    background-color: #1e90ff;
 }
 
 .Sign-Up:hover {
-    background: linear-gradient(0deg, #1e8fff6b, #1e90ff);
-    transition: 1s;
+    background: orange;
+    transition: 0.5s;
 }
 
 /* background: linear-gradient(45deg, #5ac0b8, #0c1a9c, #6268a0);

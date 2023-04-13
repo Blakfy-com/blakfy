@@ -17,7 +17,9 @@
 .bar-logo .footer-logo-color {
     font-size: 50px;
     text-decoration: none;
-    background: linear-gradient(90deg, #fff, #7e5cce);
+    background: linear-gradient(90deg, #fff, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -44,6 +46,6 @@
 }
 
 .footer-item a:hover {
-    background-color: #1e70ff;
+    background-color: orange;
     transition: 0.5s;
 }
